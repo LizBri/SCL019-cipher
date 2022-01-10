@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+    <title>LookUP</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" >
+    </head>
+
+<body>
+<div>
+    <center><img id="fondo" src="imagenes/look con este.png" width="500" alt=""></center>
+</div>
+
+
+<img id ="slider" >
+
+
+    
+<form class="formulario" id= "formu">
+
+        <h1>Bienvenido</h1>
+        <div class="input-contenedor">
+            <i class="fas fa-envelope icon"></i>
+            <input type="text" placeholder="Correo Electronico" id="user">
+    
+            </div>
+    <br>
+            <div class="input-contenedor">
+           <i class="fas fa-key icon"></i>
+            <input type="password" placeholder="Contraseña" id="password">
+   
+            </div>
+    <br>
+             <div>
+             <i class="fa-solid fa-arrow-right-to-bracket"></i>
+             <input type="button" value="Ingresar" class="button" id="login" >
+             </div>       
+             
+
+    </form>
+
+
+ <style>
+
+#fondo{
+    position: absolute;
+    left: 440px;
+    background-color: rgba(255, 255, 255, 0.534);
+    background-size: 500,1080;
+    border-color:  rgb(255, 255, 255);
+    margin: 0px;
+    padding: 0px;
+    border-width: 300px; 
+}
+body{
+    background-image: url("imagenes/fondo\ .jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #C8EBF9;
+    position: absolute;
+
+}
+
+#slider{
+    position:absolute;
+    top: 260px;
+    width:410px;
+    height:270px;
+    right: -75rem;
+    margin-top: 10px;
+    border-radius: 15px;
+    border: 10px solid;
+    border-color: #8EDC7A;
+    
+}
+
+.formulario{
+    padding: 3px;
+    position: absolute;
+    left: 500px;
+    top: 290px;
+    background-color: rgba(255, 255, 255, 0.534);
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, .5);
+
+}
+
+h1{
+   font-family:monospace;
+   font-style: oblique;
+   color: #0e7dbd;
+   text-shadow:  2px 2px 5px rgba(6, 168, 160, 0.5);
+}
+
+    
+footer {
+  margin: 195px;
+  padding: 0px;
+  box-sizing: content-box;
+  position: absolute;
+  top: 28rem;
+  right: -65rem;
+
+}
+
+.buttons {
+  min-width: 300px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.buttons a {
+  text-decoration: none;
+  font-size: 20px;
+  width: 30px;
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
+  background: #ffffff;
+  color: #1e6cc5;
+  border-radius: 50%;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, .5);
+  transition: all .4s ease-in-out;
+}
+
+.buttons a:hover {
+  transform: scale(1.2);
+}
+
+ </style>
+
+ <script src="index0.js"></script>
+
+</body>
+<footer>
+    
+    <section class="buttons">
+        <a href="https://www.msf.es/" class="fa-solid fa-heart"></a>
+        <a href="https://twitter.com/MSF_Espana?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor" class="fa-brands fa-twitter"></a>
+        <a href="https://www.instagram.com/medicossinfronterassudamerica/?hl=es" class="fa-brands fa-instagram"></a>
+        <a href="https://www.youtube.com/user/MedicosSinFronteras" class="fa-brands fa-youtube"></a>
+        <a href="https://www.facebook.com/medicossinfronteras.ong/" class="fa-brands fa-facebook"></a>
+      </section>
+</footer>
+
+
+</html>
